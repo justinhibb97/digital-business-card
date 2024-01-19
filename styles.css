@@ -1,0 +1,181 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 25px;
+    font-family: Inter, sans-serif;
+    height: 100vh;
+    background-color: #23252C;
+    width: 317px;
+}
+
+.header--icon {
+    width: 317px;
+    height: 317px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    padding-bottom: 0%;
+    display: block;
+}
+
+.main {
+    background-color: #F5F5F5;
+    padding-top: 5px;
+    padding-bottom: 0%;
+    height: 375px
+}
+
+.main--info--fullname {
+    font-size: 25px;
+    font-weight: 700;
+    text-align: center;
+    color: #2B283A;
+    margin-bottom: 0;
+}
+
+.main--info--job {
+    font-size: 13px;
+    font-weight: 400;
+    text-align: center;
+    color: #F47D27;
+    margin-top: 5px;
+    margin-bottom: 0;
+}
+
+.main--info--website {
+    font-size: 10px;
+    font-weight: 400;
+    text-align: center;
+    color: #4A4E74;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.main--buttons--email {
+    width: 115px;
+    height: 34px;
+    border-radius: 6px;
+    border: 1px;
+    background: #FFFFFF;
+    border: 1px solid #D1D5DB;
+    box-shadow: 0px 1px 2px 0px #0000000D;
+    font-size: 14px;
+    font-weight: 500;
+    color: #374151;
+    background-image: url(./images/MailIcon.png);
+    background-position: center;
+    background-position-x: 25px;
+    background-repeat: no-repeat;
+    padding-left: 25px;
+    padding-top: 2px;
+    margin-left: 30px;
+}
+
+.main--buttons--email:hover {
+    background: #f9f9f9;
+    background-image: url(./images/MailIcon.png);
+    background-position: center;
+    background-position-x: 25px;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+
+.main--buttons--linkedin {
+    width: 115px;
+    height: 34px;
+    border-radius: 6px;
+    border: 1px;
+    background: #297FE5;
+    border: 1px solid #D1D5DB;
+    box-shadow: 0px 1px 2px 0px #0000000D;
+    font-size: 14px;
+    font-weight: 500;
+    color: #FFFFFF;
+    background-image: url(./images/LinkedinIcon.png);
+    background-position: center;
+    background-position-x: 20px;
+    background-repeat: no-repeat;
+    padding-left: 30px;
+    padding-top: 2px;
+    margin-left: 25px;
+}
+
+.main--buttons--linkedin:hover {
+    background: #2676d7;
+    background-image: url(./images/LinkedinIcon.png);
+    background-position: center;
+    background-position-x: 20px;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+
+.main--about--header {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    text-align: left;
+    margin-left: 30px;
+    color: #2B283A;
+    margin-bottom: 0px;
+}
+
+.main--about--info {
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 15px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-left: 30px;
+    width: 247px;
+    color: #4A4E74;
+    margin-top: 0px;
+}
+
+.main--interests--header {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    text-align: left;
+    margin-left: 30px;
+    color: #2B283A;
+    margin-bottom: 0px;
+}
+
+.main--interests--info {
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 15px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-left: 30px;
+    width: 247px;
+    color: #4A4E74;
+    margin-top: 0px;
+}
+
+.footer {
+    background-color: #D5D4D8;
+    height: 64px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.footer--button{
+    width: 25px;
+    height: 25px;
+    border: 0px;
+    background: transparent;
+    cursor: pointer;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.footer--icon{
+    width: 25px;
+    height: 25px;
+    border: 0px;
+}
